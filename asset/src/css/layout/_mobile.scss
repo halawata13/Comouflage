@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.l-wrapper {
+  min-width: 768px;
+  margin: 0 auto;
+}
+
+.l-nav-post {
+  @include clearfix;
+
+  clear: both;
+  padding: 8px 0 0 0;
+
+  .l-nav-post__prev {
+    margin: 0 0 15px 0;
+  }
+
+  .l-nav-post__next {
+    text-align: right;
+  }
+}
+
+.l-footer {
+  .l-footer-nav__section {
+    margin: 0 0 10px 0;
+  }
+}

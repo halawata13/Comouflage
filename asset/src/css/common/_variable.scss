@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+$sans-serif: "San Francisco", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Noto Sans Japanese", "源ノ角ゴシック", "メイリオ", Meiryo, sans-serif;
+$serif: Garamond, "Times New Roman", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ＭＳ Ｐ明朝", "MS PMincho" , serif;
+$monospace: "Menlo", "Monaco", "Courier New", "ＭＳ ゴシック", monospace;
+
+$hiragino-yu: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", sans-serif;
+$lato: 'Lato', sans-serif;
+
+$background-color: #fcffff;
+$base-gray: #ddd;
+$link-color: #7688E8;
+$key-color: #aa0000;
+
+$category-colors: (
+  "html-css": #b3003c,
+  "javascript": #00b300,
+  "php": #7700b3,
+  "web-service": #b37700,
+  "wordpress": #0077b3,
+  "unknown": $base-gray
+);
+
+$base-text-color: #361919;
+$border-width: 6px;
+
+$base-padding: 40px;
+$article-padding: 15px;

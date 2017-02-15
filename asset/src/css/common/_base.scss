@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $background-color;
+  font-size: 1.6rem;
+  font-family: $sans-serif;
+}
+
+a {
+  color: $link-color;
+}
+
+@include selection($key-color, #fff);

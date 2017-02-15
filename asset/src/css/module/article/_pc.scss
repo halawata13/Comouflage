@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.l-content--single {
+  .article__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 60px 0;
+
+    .article__info {
+      padding: 15px 0 0 0;
+    }
+  }
+}

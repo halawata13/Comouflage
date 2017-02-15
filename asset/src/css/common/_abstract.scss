@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+%block {
+  margin: 0 0 $base-padding 0;
+
+  &:last-child {
+    margin: 0;
+  }
+}

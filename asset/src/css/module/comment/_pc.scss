@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.comment {
+  .comment__form {
+    .comment__item__name {
+      display: inline-block;
+      width: 250px;
+      text-align: right;
+    }
+
+    [type="text"] {
+      width: calc(100% - 280px);
+      font-size: 1.4rem;
+    }
+
+    textarea {
+      height: 300px;
+      width: calc(100% - 280px);
+      font-size: 1.4rem;
+    }
+
+    [type="submit"] {
+      padding: 6px 30px;
+      border-radius: 2px;
+      border: none;
+      font-size: 1.4rem;
+      color: #fff;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.l-wrapper {
+  width: 1340px;
+  margin: 0 auto;
+}
+
+.l-content--index {
+  margin-top: 30px;
+}
+
+.l-footer {
+  .l-footer-nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .l-footer-nav__section {
+    @include box-shadow;
+
+    width: 416px;
+  }
+}

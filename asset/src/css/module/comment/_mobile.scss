@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.comment {
+  .comment__form {
+    padding: 15px;
+
+    .comment__item__name {
+      display: block;
+    }
+
+    [type="text"] {
+      width: 100%;
+      font-size: 2rem;
+    }
+
+    textarea {
+      height: 300px;
+      width: 100%;
+      font-size: 2rem;
+    }
+
+    [type="submit"] {
+      padding: 6px 2em;
+      border-radius: 2px;
+      border: none;
+      background-color: #666;
+      font-size: 2rem;
+      color: #fff;
+    }
+  }
+}
