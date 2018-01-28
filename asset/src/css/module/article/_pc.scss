@@ -1,13 +1,42 @@
 @charset "UTF-8";
 
-.l-content--single {
-  .article__header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0 60px 0;
+.article {
+  padding: $article-padding + 10px $article-padding;
+}
 
-    .article__info {
-      padding: 15px 0 0 0;
+.l-content--index {
+  .article__thumbs {
+    height: 128px;
+    width: 128px;
+
+    img {
+      height: 128px;
+      width: 128px;
+    }
+  }
+
+  .article__title {
+    padding: 0 0 25px 0;
+    font-size: 2.4rem;
+  }
+}
+
+.l-content--single {
+  .article {
+    padding: 40px;
+
+    .article__header {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 60px 0;
+
+      .article__title {
+        font-size: 3rem;
+      }
+
+      .article__info {
+        padding: 15px 0 0 0;
+      }
     }
   }
 }

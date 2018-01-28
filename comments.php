@@ -41,7 +41,7 @@
                         </label>
                     </div>
 
-                    <div class="comment__form__item">
+                    <div class="comment__form__item comment__form__item--submit">
                         <label>
                             <span class="comment__item__name comment__item__name--required">
                             </span>

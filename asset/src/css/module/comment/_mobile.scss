@@ -4,6 +4,10 @@
   .comment__form {
     padding: 15px;
 
+    .comment__form__item--submit {
+      text-align: center;
+    }
+
     .comment__item__name {
       display: block;
     }
@@ -23,7 +27,6 @@
       padding: 6px 2em;
       border-radius: 2px;
       border: none;
-      background-color: #666;
       font-size: 2rem;
       color: #fff;
     }

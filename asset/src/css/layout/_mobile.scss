@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
-.l-wrapper {
-  min-width: 768px;
-  margin: 0 auto;
+.l-main {
+  margin: 0 10px 10px 10px;
 }
 
 .l-nav-post {
@@ -21,6 +20,8 @@
 }
 
 .l-footer {
+  margin: 0 10px;
+
   .l-footer-nav__section {
     margin: 0 0 10px 0;
   }

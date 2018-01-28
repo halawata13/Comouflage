@@ -1,7 +1,31 @@
 @charset "UTF-8";
 
+.l-content--index {
+  .article__thumbs {
+    height: 64px;
+    width: 64px;
+
+    img {
+      height: 64px;
+      width: 64px;
+    }
+  }
+
+  .article__title {
+    word-break: break-all;
+    font-size: 1.8rem;
+  }
+}
+
 .l-content--single {
   .article {
+    .article__header {
+      .article__title {
+        font-size: 2.4rem;
+        line-height: 1.25;
+      }
+    }
+
     .article__body {
       img {
         max-width: 100%;
@@ -11,8 +35,6 @@
 }
 
 .article__header {
-  margin: 0 0 30px 0;
-
   .article__info {
     display: flex;
     justify-content: flex-end;

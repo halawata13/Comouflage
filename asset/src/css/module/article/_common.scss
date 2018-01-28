@@ -42,8 +42,7 @@
   }
 
   .article__social-ctn {
-    height: 30px;
-    margin: -5px 0 0 0;
+    margin: 10px 0 0 0;
   }
 
   .article__excerpt {
@@ -75,21 +74,12 @@
     .article__thumbs {
       float: left;
       display: inline-block;
-      height: 128px;
-      width: 128px;
       margin: 0 20px 0 0;
       border: solid 1px #ddd;
       background-color: #999;
-
-      img {
-        height: 128px;
-        width: 128px;
-      }
     }
 
     .article__title {
-      padding: 0 0 25px 0;
-      font-size: 2.4rem;
       line-height: 1.4;
 
       a {
@@ -127,7 +117,7 @@
   .article {
     @include box-shadow;
 
-    padding: 40px;
+    border-left: none;
     font-size: 1.6rem;
 
     a {
@@ -151,7 +141,7 @@
     }
 
     .article__content {
-      margin: 0 0 $base-padding 0;
+      margin: 0 0 $base-margin 0;
     }
 
     .article__footer {
@@ -164,7 +154,7 @@
 
     .article__info {
       display: flex;
-      margin: 0 0 $base-padding / 2 0;
+      margin: 0 0 $base-margin / 2 0;
 
       dl {
         display: flex;
@@ -190,7 +180,7 @@
 
       h1 {
         position: relative;
-        margin: $base-padding * 2 0 $base-padding 0;
+        margin: $base-margin * 2 0 $base-margin 0;
         padding: 0 0 0 30px;
         border-bottom: solid 1px $base-gray;
         font-family: $hiragino-yu;
@@ -221,7 +211,7 @@
 
       h2 {
         position: relative;
-        margin: $base-padding 0;
+        margin: $base-margin * 3 0 $base-margin 0;
         padding: 0 0 0 30px;
         border-bottom: solid 1px $base-gray;
         font-family: $hiragino-yu;
@@ -253,7 +243,7 @@
       h3 {
         position: relative;
         padding: 0 0 0 20px;
-        margin: $base-padding 0;
+        margin: $base-margin * 2 0 $base-margin 0;
         font-family: $hiragino-yu;
         font-size: 1.9rem;
         font-weight: bold;
@@ -271,21 +261,21 @@
       }
 
       h4 {
-        margin: $base-padding 0;
+        margin: $base-margin 0;
         font-family: $hiragino-yu;
         font-size: 1.8rem;
         font-weight: bold;
       }
 
       h5 {
-        margin: $base-padding 0;
+        margin: $base-margin 0;
         font-family: $hiragino-yu;
         font-size: 1.7rem;
         font-weight: bold;
       }
 
       h6 {
-        margin: $base-padding 0;
+        margin: $base-margin 0;
         font-family: $hiragino-yu;
         font-size: 1.6rem;
         font-weight: bold;
